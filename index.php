@@ -13,7 +13,7 @@
 
 
     <!-- NAVIGATION BAR -->
-<img src="images/beachview.jpg" class="img-fluid" alt="beachview">
+<img src="images/beachview.jpg" class="img-fluid hero-image" alt="beachview">
 
         <nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3">
   <a class="navbar-brand" href="#">The Grand Aurora</a>
@@ -28,10 +28,10 @@
       <a class="nav-link" href="#scrollspyHeading3">GALLERY</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#scrollspyHeading3">DINING</a>
+      <a class="nav-link" href="#scrollspyHeading4">DINING</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#scrollspyHeading3">ABOUT US</a>
+      <a class="nav-link" href="#scrollspyHeading5">ABOUT US</a>
     </li>
   </ul>
 </nav>
@@ -54,13 +54,37 @@
 </div>
 
 
-    <img src="..." class="img-thumbnail" alt="...">
-
-
     <!-- Welcome Page -->
+    <div class="welcome-section">
+    <img src="images/outsideview.jpg" class="img-fluid" alt="outsideview">
+    <h3>Welcome to your luxurious home away from home</h3>
+    </div>
 
-    
 
-<footer></footer>
+    <!-- ACCOMODATIONS SECTION -->
+
+    <div class="accomodations-section">
+        <h2>ACCOMODATIONS</h2>
+        
+        <div class="row g-3">
+            <div class="col-md-4">
+                <img src="images/room1.jpg" class="img-fluid accommodation-img" alt="Room 1">
+            </div>
+            <div class="col-md-4">
+                <img src="images/room2.jpg" class="img-fluid accommodation-img" alt="Room 2">
+            </div>
+            <div class="col-md-4">
+                <img src="images/room3.jpg" class="img-fluid accommodation-img" alt="Room 3">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- RATINGS SECTION -->
+    <h2>RATINGS</h2>
+
+
+    <!-- FOOTER SECTION -->
+    <footer> </footer>
 </body>
 </html>
