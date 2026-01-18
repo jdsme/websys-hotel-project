@@ -3,9 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Gallery - The Grand Aurora</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #333;">
+        <div class="container">
+            <a class="navbar-brand" href="index.php">The Grand Aurora</a>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="Accommodations.html">Accommodations</a></li>
+                <li class="nav-item"><a class="nav-link" href="Rating.html">Rating</a></li>
+                <li class="nav-item"><a class="nav-link active" href="Gallery.html">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="Dining.html">Dining</a></li>
+                <li class="nav-item"><a class="nav-link" href="About.html">About Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- GALLERY TITLE -->
+    <h2 class="accommodations-title">Gallery</h2>
+
+    <!-- GALLERY IMAGES -->
+    <div class="container">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <img src="images/entrance.jpg" alt="Entrance" class="gallery-img">
+                <p class="text-center mt-2">Entrance</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/Hotel-Lobby.jpg" alt="Hotel Lobby" class="gallery-img">
+                <p class="text-center mt-2">Hotel Lobby</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/beachview.jpg" alt="Beach View" class="gallery-img">
+                <p class="text-center mt-2">Beach View & Swimming Pool</p>
+            </div>
+
+            <div class="col-md-4">
+                <img src="images/Dining-Area.jpg" alt="Restaurant" class="gallery-img">
+                <p class="text-center mt-2">Fine Dining</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/Spa-Area.jpeg" alt="Spa Area" class="gallery-img">
+                <p class="text-center mt-2">Spa & Wellness</p>
+            </div>
+            <div class="col-md-4">
+                <img src="images/outsideview.jpg" alt="Outside View" class="gallery-img">
+                <p class="text-center mt-2">Outside View</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class="text-center p-3 mt-5" style="background-color: #333; color: white;">
+        © 2026 The Grand Aurora Hotel
+    </footer>
+
 </body>
 </html>
